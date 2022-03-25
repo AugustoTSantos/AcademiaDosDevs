@@ -1,0 +1,13 @@
+public class aula04 {
+    public static void main(String[] args) {
+        byte numero_byte = 122; //byte é um tipo de variavel que serve para armazenar numeros de -128 até 127
+        short numero_short = 3333; //short é uma variavel que serve para armazenar numeros de -32768 até 32767
+        int numero_int = -66666666; // int é uma variavel que serve para armazenamento de numeros grandes
+        long numero_long = 999999999999999999l; // long é uma variavel que serve para armazenar numeros gigantes, é preciso colocar um l no final
+
+        System.out.println(numero_byte);
+        System.out.println(numero_short);
+        System.out.println(numero_int);
+        System.out.println(numero_long);
+    }
+}
