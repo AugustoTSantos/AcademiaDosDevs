@@ -4,10 +4,35 @@ public class aula04 {
         short numero_short = 3333; //short é uma variavel que serve para armazenar numeros de -32768 até 32767
         int numero_int = -66666666; // int é uma variavel que serve para armazenamento de numeros grandes
         long numero_long = 999999999999999999l; // long é uma variavel que serve para armazenar numeros gigantes, é preciso colocar um l no final
+            // Variaveis do tipo inteiro
+        
+        float numero_float = 78.7f; //float é uma variavel para números com partes decimais separadas por um ponto, é preciso colocar um f no final
+        double numero_double =  3.141414141414123412341341; //double é uma variavel que serve para armazenar número com muitas casas decimais
+            // Variaveis do tipo ponto flutuante
+        
+        char caractere = 'w'; //char guar 1 unico valor, precisa estar em aspas simples
+            //Variaveis do tipo caractere
+        
+        boolean tf = false; // armazena verdadeiro ou falso
+            //Variaveis do tipo booleano
+        
+        String nome = "Augusto"; // armazena dados como um texto, é preciso estar em aspas duplas
+            //Variaveis do tipo String
+
 
         System.out.println(numero_byte);
         System.out.println(numero_short);
         System.out.println(numero_int);
         System.out.println(numero_long);
+        System.out.println("");
+        System.out.println(numero_float);
+        System.out.println(numero_double);
+        System.out.println("");
+        System.out.println(caractere);
+        System.out.println("");
+        System.out.println(tf);
+        System.out.println("");
+        System.out.println(nome);
     }
 }
+
