@@ -1,26 +1,30 @@
 import java.util.Scanner;
 
-public class aula06 {
+public class Aula06 {
     public static void main(String[] args) {
-        int numero;
-            //criando a variavel número
-        float numero2;
-            //crindo outra variavel para numeros float
+        int numero; //criando a variavel número
+           
+        float numero2; //crindo outra variavel para numeros float
+            
+        String nome;
 
-        System.out.println("Digite um número inteiro abaixo");
 
         Scanner leitor = new Scanner(System.in);
-            // criando a classe de Scanner co a variavel leitor, para o usuario conseguir digitar informações
-        numero = leitor.nextInt();
-            // definando que o valor de "numerovai ser igual ao que o usuario digitar em leitor usando o metodo next do Scanner"
+            System.out.println("Digite um número inteiro abaixo");
+                numero = leitor.nextInt(); // definando que o valor de "numero vai ser igual ao que o usuario digitar em leitor usando o metodo next do Scanner"
+            System.out.println("O número inteiro digitado foi: " + numero);
 
-        System.out.println("Digite um número float abaixo");
+            System.out.println("");
 
-        Scanner leitor2 = new Scanner(System.in);
-            //criando outra variavel para ler números float
-        numero2 = leitor2.nextFloat();
+            System.out.println("Digite um número float abaixo");
+                numero2 = leitor.nextFloat();
+            System.out.println("O número float digitado foi: " + numero2);
+            
+            System.out.println("");
 
-        System.out.println("O número inteiro digitado foi: " + numero);
-        System.out.println("O número float digitado foi: " + numero2);
+            System.out.println("Digite seu Nome Completo abaixo");
+                nome = leitor.nextLine(); //usando nextLine para o Scanner ler até um quebra de linha         
+            System.out.println("Seu nome completo é: " + nome);
+        
     }
 }
