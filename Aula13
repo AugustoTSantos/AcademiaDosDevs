@@ -1,0 +1,17 @@
+public class Aula13 {
+    // um arrey serve pra armazenar varios dados do mesmo tipo em um lugar
+    //tipo[] nomeVariavel = new tipo[tamanho]
+    // obs o tamnho começa no 0, então digite o número que vc precisa + 1
+
+    public static void main(String[] args) {
+    String[] nomes = new String[5];
+
+    nomes[0] = "Naruto";
+    nomes[1] = "Sasuke";
+    nomes[2] = "Kakashi";
+    nomes[3] = "Sakura";
+    nomes[4] = "Sai";
+
+    System.out.println(nomes[3]);
+    }
+}
