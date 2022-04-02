@@ -9,18 +9,18 @@ import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
 public class AulaJavaFX extends Application {
-
     public static void main(String[] args) {
         launch(args);
     }
 
     @Override
-    public void start(Stage primaryStage) throws Exception {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource(layout.fxml));
+    public void start(Stage primaryStage) throws Exception { 
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("layout.fxml"));
         Parent root = fxmlLoader.load();
         Scene tela = new Scene(root);
 
         primaryStage.setTitle("teste");
         primaryStage.setScene(tela);
+        primaryStage.show();
     }
- }
+}
