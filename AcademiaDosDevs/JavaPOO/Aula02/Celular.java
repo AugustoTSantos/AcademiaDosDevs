@@ -11,14 +11,4 @@ public class Celular {
         System.out.format("O celular %s tem o sistema operacional %s, com espaço de memória de %d gb e uma tela de %.1f polegadas \n\n",
         nome, sistemaOperacional, espacoArmazenamento, tamanhoTela);
     };
-
-    void onOff() {
-        boolean on = true;
-        boolean off = false;
-
-        if(on) {
-
-        }
-        
-    }
 }
