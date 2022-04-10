@@ -5,7 +5,12 @@ public class Aula06 {
         
         Pessoas pessoa = new Pessoas();
 
-        pessoa.mudarNome("Augusto");
-        System.out.println(pessoa.mostrarNome());
+        pessoa.setNome("Augusto");
+        pessoa.setIdade(23);
+        pessoa.setAltura(1.70);
+
+        System.out.println(pessoa.getNome() + "\n" + 
+        pessoa.getIdade() + "\n" + 
+        pessoa.getAltura());
     }
 }
